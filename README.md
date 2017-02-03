@@ -1,4 +1,5 @@
 # PASS-CRYPT-v0.1
+
 Optimized version of PASS-CRYPT
 
 Password Crypter version 0.1
@@ -26,20 +27,20 @@ modified in order to have complete control of them throughout the process of key
 
 [+] The way to interact with the crypter, is by using:
 
-OPTIONS
-  -c, --crypt                Crypt In-file and save to Out-file
-  -d, --decrypt              Decrypt In-file and save to Out-file
-  -i, --in_file=FILE         In-file to crypt or decrypt
-  -o, --out_file=FILE        Out-file: = result (crypted or decrypted output)
-  'start'                    Always type the word 'start' at the end of all
-                             arguments.
-  -?, --help                 Give this help list
-      --usage                Give a short usage message
-  -V, --version              Print program version
+	OPTIONS
+	  -c, --crypt                Crypt In-file and save to Out-file
+	  -d, --decrypt              Decrypt In-file and save to Out-file
+	  -i, --in_file=FILE         In-file to crypt or decrypt
+	  -o, --out_file=FILE        Out-file: = result (crypted or decrypted output)
+	  'start'                    Always type the word 'start' at the end of all
+				     arguments.
+	  -?, --help                 Give this help list
+	      --usage                Give a short usage message
+	  -V, --version              Print program version
 
-Usage: PASS-CRYPT [-cd?V] [-i FILE] [-o FILE] [--crypt] [--decrypt]
-            [--in_file=FILE] [--out_file=FILE] [--'start'] [--help] [--usage]
-            [--version] start
+	Usage: PASS-CRYPT [-cd?V] [-i FILE] [-o FILE] [--crypt] [--decrypt]
+		    [--in_file=FILE] [--out_file=FILE] [--'start'] [--help] [--usage]
+		    [--version] start
 
 [+] If there is any doubt about usage, you can use the --help or --usage commands.
 
@@ -56,7 +57,7 @@ having a better interaction with the tool. To accomplish this, the library argpa
             key generation process. Use ascii characters only. Try to use 'sudo' all the time. You can also crypt 
 	    entire texts.
 
-By: 
+Created by: 
 
 	==================================================================
 	| ##   ## ######## ##   ##   ###### ########  ######## ########   |
