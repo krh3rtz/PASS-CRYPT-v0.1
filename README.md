@@ -42,6 +42,10 @@ modified in order to have complete control of them throughout the process of key
 		    [--in_file=FILE] [--out_file=FILE] [--'start'] [--help] [--usage]
 		    [--version] start
 
+
+[+] SOME INFORMATION [+]
+
+
 [+] If there is any doubt about usage, you can use the --help or --usage commands.
 
 [+] In comparison with the last version of this tool, you can now choose the file to crypt/decrypt,
