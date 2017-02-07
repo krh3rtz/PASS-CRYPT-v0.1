@@ -56,6 +56,21 @@ having a better interaction with the tool. To accomplish this, the library argpa
     sudo make PASS-CRYPT
     sudo ./PASS-CRYPT -i in_file.txt -o out_file.txt start
 
+Once started, the crypter will ask for a custom key as well as for a modul value. This information is crutial
+for the key generation process.
+
+[!]NOTE: While decrypting, use the same values you enter, otherwise the output will be ureadable data. 
+Capital and small letters shoul be respected for the key and the modul just numbers:
+
+	eg
+	key: password
+	modul: 4
+	
+	is not the same as:
+	
+	key: PassworD
+	modul: 44
+
 
 [!] Disclaimer: Keep all your credentials in a safe place. By studying the code, you can have complete control of the
             key generation process. Use ascii characters only. Try to use 'sudo' all the time. You can also crypt 
