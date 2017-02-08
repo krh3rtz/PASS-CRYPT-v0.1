@@ -1,7 +1,7 @@
 /*
  PASS-CRYPT-v0.1
 
- * author Krhertz 2017
+ * Author Krhertz 2017
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
